@@ -14,7 +14,10 @@ weight: 3
 
 - **continuous development, integration, and deployment** provides for reliable and frequent container image build and deployment with quick and efficient rollbacks – due to image immutability
 
-![benefit2](benefit2.png)
+{{< meshery-design-embed
+id="embedded-design-0c8180c3-2411-454f-bebe-50cc8292d630"
+src="embedded-design-untitled-design.js"
+>}}
 
 - **environmental consistency across dev, test, and prod** runs the same on a laptop as it does on an on-premises server, virtualized server, and in the cloud
 

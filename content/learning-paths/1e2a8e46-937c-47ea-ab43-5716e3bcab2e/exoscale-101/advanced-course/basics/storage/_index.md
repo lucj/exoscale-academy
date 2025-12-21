@@ -10,7 +10,7 @@ Overview
 
 Simple Object Storage (SOS) is an S3-compatible object storage to store your assets, files, and metadata. Furthermore, it is a cost-effective solution to support your application and backup or serve your data from any Exoscale zone with no hidden fees, using your existing S3-compatible tooling and a familiar API.
 
-![sos](sos.png)
+{{< meshery-design-embed id="embedded-design-0205e665-9eb4-4552-8da4-c1e9dfd4c9a7" src="sos.js" >}}
 
 - Simple to use
 - High-available, replicated 3 copies of each object

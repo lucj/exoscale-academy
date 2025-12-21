@@ -36,4 +36,4 @@ With a free STARTER version and an affordable PRO plan, SKS provides straightfor
 
 Deploy your cluster where you need to, in the region that suits your latency, privacy or redundancy strategy.
 
-![kubernetes6](kubernetes6.png)
+{{< meshery-design-embed id="embedded-design-e79330bc-39bc-45d3-b66a-a69954b702ef" src="kubernetes6.js">}}

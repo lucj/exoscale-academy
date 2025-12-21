@@ -1,11 +1,10 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: preview-deploy
 
 on:
-  pull_request:
-    branches: [ "master" ]
   pull_request_target:
     branches: [ "master" ]
+    types: [opened, synchronize, reopened]
 
   workflow_dispatch:
 
@@ -31,7 +30,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with: 
-          ref: ${{ github.event.pull_request.base.ref }}
+          ref: ${{ github.event.pull_request.head.sha }}
+          submodules: recursive
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Setup Hugo (Extended)
@@ -54,7 +54,7 @@ jobs:
         uses: actions/deploy-pages@v4
         
       - name: Comment Preview URL on PR
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request_target'
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           message: |

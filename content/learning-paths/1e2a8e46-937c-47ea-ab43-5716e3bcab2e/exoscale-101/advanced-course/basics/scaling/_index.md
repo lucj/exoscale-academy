@@ -15,7 +15,7 @@ The Exoscale Platform provides two ways of scaling:
 
 Which way should be used also depends on your app's architecture, and there is an impact on the operational procedures as well.
 
-![scaling-v-h](scaling-v-h.png)
+{{< meshery-design-embed id="embedded-design-8355c0a3-9b30-4a30-a481-d5c6fc7a90a9" src="scaling-v-h.js" >}}
 
 ### Vertical
 
