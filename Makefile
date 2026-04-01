@@ -36,8 +36,7 @@ build-preview:
 
 ## Empty build cache and run on your local machine.
 clean: 
-	hugo --cleanDestinationDir
-	make site
+	rm -rf public/ resources/
 
 ## Fix Markdown linting issues
 lint-fix:
