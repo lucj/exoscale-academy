@@ -1,0 +1,52 @@
+---
+title: 'Practice On Exoscale'
+---
+
+<br/>
+
+Welcome to this hands-on workshop where you'll learn to deploy a microservice application in Kubernetes using Exoscale's platform and open-source tools. This workshop provides detailed instructions and explanations to explore Exoscale's offering. It is organized into the following sections, each building upon the previous one. You can access a section directly by clicking on the corresponding card, but if you want to get the most out of this workshop it's recommended you follow the section in order, starting with the presentation of the [VotingApp](./votingapp).
+
+<br/>
+
+{{< hextra/cards >}}
+    {{< hextra/card    title="What is the VotingApp?" 
+                subtitle="Introduction to our sample application"
+                icon="votingapp"
+                link="./votingapp"
+    >}}
+    {{< hextra/card    title="Deploying the VotingApp" 
+                subtitle="Launch the application in an Exoscale-managed cluster"
+                icon="exo-sks"
+                link="./sks"
+    >}}
+    {{< hextra/card    title="Exposing the VotingApp" 
+                subtitle="Use Network Load Balancer to expose the application" 
+                icon="exo-nlb"
+                link="./nlb"
+    >}}
+    {{< hextra/card    title="Configuring DNS" 
+                subtitle="Expose the application on its own domain" 
+                icon="exo-dns"
+                link="./dns"
+    >}}
+    {{< hextra/card    title="Activating TLS" 
+                subtitle="Automate certificate management with cert-manager"
+                icon="cert-manager"
+                link="./tls"
+    >}}
+    {{< hextra/card    title="Managing Secrets" 
+                subtitle="Secure sensitive information with HashiCorp Vault"
+                icon="vault"
+                link="./vault"
+    >}}
+    {{< hextra/card    title="Persisting data in DBaaS" 
+                subtitle="Store application data in Exoscale-managed databases"
+                icon="exo-dbaas"
+                link="./dbaas"
+    >}}
+    {{< hextra/card    title="Using Object Storage" 
+                subtitle="Store application assets in Object Storage"
+                icon="exo-sos"
+                link="./sos"
+    >}}
+{{< /hextra/cards >}}
