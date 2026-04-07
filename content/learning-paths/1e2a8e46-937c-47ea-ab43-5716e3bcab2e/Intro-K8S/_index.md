@@ -1,8 +1,7 @@
-
-
-
-
-
+---
+title: Introduction to Kubernetes
+weight: 3
+---
 
 ## Experiences we want to change!
 

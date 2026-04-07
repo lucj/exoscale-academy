@@ -1,10 +1,9 @@
-
-
-
-
+---
+title: Certified Cloud Professional
+weight: 7
+---
 
 ## Cloud Computing
-
 
 ### Definition
 

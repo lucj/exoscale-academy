@@ -1,8 +1,7 @@
-
-
-
-
-
+---
+title: Introduction to Storage
+weight: 5
+---
 
 ## Storage
 
