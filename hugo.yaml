@@ -3,6 +3,9 @@ title: Exoscale Academy
 canonifyurls: true
 ignoreLogs: ['warning-goldmark-raw-html']
 
+params:
+  buildCondition: examples
+
 module:
   hugoVersion:
     extended: true

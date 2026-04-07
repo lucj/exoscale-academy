@@ -1,0 +1,5 @@
+{{ with .Page.Scratch.Get "lab_intro" }}
+<div class="pageinfo">
+  {{ . | $.Page.RenderString }}
+</div>
+{{ end }}

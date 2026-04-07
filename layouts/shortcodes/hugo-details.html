@@ -1,0 +1,5 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<details{{ with .Get "class" }} class="{{ . }}"{{ end }}{{ with .Get "name" }} name="{{ . }}"{{ end }}{{ with .Get "title" }} title="{{ . }}"{{ end }}{{ if .Get "open" }} open{{ end }}>
+  <summary>{{ (.Get "summary" | default "Details") | markdownify }}</summary>
+  {{ .Inner | $.Page.RenderString }}
+</details>
