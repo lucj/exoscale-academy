@@ -1,8 +1,7 @@
-
-
-
-
-
+---
+title: Certified Solution Architect
+weight: 9
+---
 
 ## Overview
 

@@ -1,8 +1,7 @@
-
-
-
-
-
+---
+title: Introduction to Pricing
+weight: 4
+---
 
 ## Typical Web Application
 
