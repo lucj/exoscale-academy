@@ -1,6 +1,7 @@
 ---
 title: 'Exoscale-managed Kubernetes'
 weight: 2
+no_list: true
 ---
 
 In this section, you will create an Exoscale-managed Kubernetes cluster and deploy the demo application inside it. Please follow the sections below in order, starting with [SKS](./sks).
