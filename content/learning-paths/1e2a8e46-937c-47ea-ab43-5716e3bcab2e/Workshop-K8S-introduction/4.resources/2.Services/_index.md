@@ -1,17 +1,18 @@
 ---
 title: Services
 weight: 2
+no_list: true
 ---
 
 ![Service](../images/service.png)
 
 {{< hextra/cards >}}
-    {{< hextra/card    link="./learn" 
-                title="Learn" 
+    {{< hextra/card    link="./concepts" 
+                title="Concepts" 
                 subtitle="Network exposure and load balancing" 
     >}}
-    {{< hextra/card    link="./practice" 
-                title="Practice" 
+    {{< hextra/card    link="./exercise" 
+                title="Exercise" 
                 subtitle="Add Services to the VotingApp" 
     >}}
 {{< /hextra/cards >}}

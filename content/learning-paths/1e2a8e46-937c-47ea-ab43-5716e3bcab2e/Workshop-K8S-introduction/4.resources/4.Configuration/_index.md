@@ -1,17 +1,18 @@
 ---
 title: Configuration
 weight: 4
+no_list: true
 ---
 
 ![Configuration](../images/configuration.png)
 
 {{< hextra/cards >}}
-    {{< hextra/card    link="./learn" 
-                title="Learn" 
+    {{< hextra/card    link="./concepts" 
+                title="Concepts" 
                 subtitle="Manage configuration and sensitive data" 
     >}}
-    {{< hextra/card    link="./practice" 
-                title="Practice" 
+    {{< hextra/card    link="./exercise" 
+                title="Exercise" 
                 subtitle="Use a Secret to secure the database connection" 
     >}}
 {{< /hextra/cards >}}
