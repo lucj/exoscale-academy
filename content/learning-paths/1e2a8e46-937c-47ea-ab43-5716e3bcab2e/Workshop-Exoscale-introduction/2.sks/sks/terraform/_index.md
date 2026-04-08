@@ -13,9 +13,9 @@ In a new folder, we create the following Terraform configuration files; they con
 - variables.tf defines the input information
 - output.tf specifies the information to be displayed back
 
-{{< hextra/tabs items="provider.tf,security_group.tf,cluster.tf,node_pool.tf,kubeconfig.tf,variables.tf,output.tf" >}}
+{{< hextra/tabs >}}
 
-  {{< hextra/tab >}}
+  {{< hextra/tab name="provider.tf">}}
     ```
     terraform {
       required_providers {
@@ -30,7 +30,7 @@ In a new folder, we create the following Terraform configuration files; they con
     ```
   {{< /hextra/tab >}}
   
-  {{< hextra/tab >}}
+  {{< hextra/tab name="security_group.tf">}}
     ```
     # A security group so the nodes can communicate and we can pull logs
     resource "exoscale_security_group" "sg_sks_nodes" {
@@ -67,7 +67,7 @@ In a new folder, we create the following Terraform configuration files; they con
     ```
   {{< /hextra/tab >}}
   
-  {{< hextra/tab >}}
+  {{< hextra/tab name="cluster.tf">}}
     ```
     resource "exoscale_sks_cluster" "sks" {
         zone           = var.zone
@@ -83,7 +83,7 @@ In a new folder, we create the following Terraform configuration files; they con
     ```
   {{< /hextra/tab >}}
 
-  {{< hextra/tab >}}
+  {{< hextra/tab name="node_pool.tf">}}
     ```
     resource "exoscale_sks_nodepool" "workers" {
         zone               = var.zone
@@ -96,7 +96,7 @@ In a new folder, we create the following Terraform configuration files; they con
     ```
   {{< /hextra/tab >}}
 
-  {{< hextra/tab >}}
+  {{< hextra/tab name="kubeconfig.tf">}}
     ```
     resource "exoscale_sks_kubeconfig" "sks_kubeconfig" {
         cluster_id = exoscale_sks_cluster.sks.id
@@ -117,7 +117,7 @@ In a new folder, we create the following Terraform configuration files; they con
     ```
   {{< /hextra/tab >}}
 
-  {{< hextra/tab >}}
+  {{< hextra/tab name="variables.tf">}}
     ```
     variable "kube_version" {
         description = "Version of the Kubernetes cluster"
@@ -151,7 +151,7 @@ In a new folder, we create the following Terraform configuration files; they con
     ```
   {{< /hextra/tab >}}
 
-  {{< hextra/tab >}}
+  {{< hextra/tab name="output.tf">}}
     ```
     output "name" {
         value = var.name

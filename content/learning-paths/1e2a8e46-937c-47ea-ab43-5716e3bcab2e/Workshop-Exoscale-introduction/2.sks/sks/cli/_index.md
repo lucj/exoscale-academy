@@ -14,7 +14,7 @@ The shell script *sks.sh*, detailed below, creates the following Exoscale resour
 This script allows the creation of an SKS cluster easily. This is fine for a workshop, but it must not be used to create a production cluster
 {{< /hextra/callout >}}
 
-{{% details title="sks.sh" closed="true" %}}
+{{< details title="sks.sh" >}}
 
 ```bash
 #!/usr/bin/env bash
@@ -202,7 +202,7 @@ create-cluster
 get-kubeconfig
 ```
 
-{{% /details %}}
+{{< /details >}}
 
 This script also generates a kubeconfig file to access the cluster API Server.
 

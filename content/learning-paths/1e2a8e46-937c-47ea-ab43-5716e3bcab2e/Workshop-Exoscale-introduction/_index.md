@@ -1,6 +1,7 @@
 ---
 title: 'Workshop Exoscale Introduction'
 weight: 12
+no_list: true
 ---
 
 Welcome to this hands-on workshop where you'll learn to deploy a microservice application in Kubernetes using Exoscale's platform and open-source tools. This workshop provides detailed instructions and explanations to explore Exoscale's offering. It is organized into the following sections, each building upon the previous one. You can access a section directly by clicking on the corresponding card, but if you want to get the most out of this workshop it's recommended you follow the section in order, starting with the presentation of the [VotingApp](./votingapp).

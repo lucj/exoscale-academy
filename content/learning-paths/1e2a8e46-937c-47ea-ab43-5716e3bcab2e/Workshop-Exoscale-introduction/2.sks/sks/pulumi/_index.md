@@ -9,9 +9,9 @@ In a new folder, we create the following files:
 
 - Pulumi.demo.yaml, which defines the configuration option to apply to *Pulumi.yaml* in order to create a specific stack named *demo*
 
-{{< hextra/tabs items="Pulumi.yaml,Pulumi.demo.yaml" >}}
+{{< hextra/tabs >}}
 
-  {{< hextra/tab >}}
+  {{< hextra/tab name="Pulumi.yaml">}}
     ```
     name: sks-template 
     runtime: yaml
@@ -134,7 +134,7 @@ In a new folder, we create the following files:
     ```
   {{< /hextra/tab >}}
   
-  {{< hextra/tab >}}
+  {{< hextra/tab name="Pulumi.demo.yaml">}}
     ```
     config:
         zone: ch-gva-2  
