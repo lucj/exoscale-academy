@@ -12,10 +12,7 @@ title: Certificates
 
 4. Get the rights associated to the previous Group
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. On a kubeadm cluster, where are located the private keys and related certificates used by the control plane components to communicate with each other ?
 
@@ -145,6 +142,4 @@ rules:
 {{< hextra/callout type="info" >}}
 The kubelet agent is allowed to perform many actions on the cluster including managing Nodes, Pods, and accessing ConfigMaps/Secrets needed for Pod operation.
 {{< /hextra/callout >}}
-
-</details>
 

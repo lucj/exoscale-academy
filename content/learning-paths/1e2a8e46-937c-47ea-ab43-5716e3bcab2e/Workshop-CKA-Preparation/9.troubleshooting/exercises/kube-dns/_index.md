@@ -16,10 +16,7 @@ title: DNS
 
 [https://kubernetes.io/docs/concepts/security/service-accounts/](https://kubernetes.io/docs/concepts/security/service-accounts/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. List the Pods running the kubernetes dns
 
@@ -105,5 +102,4 @@ rules:
   - watch
 ```
 
-</details>
 

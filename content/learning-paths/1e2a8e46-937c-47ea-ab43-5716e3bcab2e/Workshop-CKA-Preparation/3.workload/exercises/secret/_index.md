@@ -22,10 +22,7 @@ token=cb3456a54EB5
 
 [https://kubernetes.io/docs/concepts/configuration/secret/](https://kubernetes.io/docs/concepts/configuration/secret/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create the file *private.txt*
 
@@ -89,5 +86,5 @@ token=cb3456a54EB5
 ```
 k delete po/test secret/credentials
 ```
-</details>
+
 

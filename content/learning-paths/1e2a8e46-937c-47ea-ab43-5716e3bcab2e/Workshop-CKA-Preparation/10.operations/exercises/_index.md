@@ -1,5 +1,6 @@
 ---
 title: Exercises
+no_list: true
 ---
 
 The **Cluster Architecture, Installation & Configuration** represents about 25% of the exam. The topics to study include:

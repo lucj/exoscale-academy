@@ -1,5 +1,5 @@
 ---
-title: Deployment and Service
+title: Deployment & Service
 ---
 
 ## Exercise
@@ -19,10 +19,7 @@ title: Deployment and Service
 - [https://kubernetes.io/docs/concepts/workloads/controllers/deployment/](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 - [https://kubernetes.io/docs/concepts/services-networking/service/](https://kubernetes.io/docs/concepts/services-networking/service/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a Deployment with 5 replicas of Pods based on the *nginx:1.20-alpine* image
 
@@ -88,6 +85,4 @@ Commercial support is available at
 ```
 k delete deploy/nginx svc/nginx
 ```
-
-</details>
 

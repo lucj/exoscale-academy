@@ -14,10 +14,7 @@ title: Pod deletion
 
 [https://kubernetes.io/docs/reference/kubectl/generated/kubectl_delete/](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_delete/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a Pod named *debug* with one container based on *alpine:3.15* executing the command `sleep 10000`. Make sure the Pod is running fine
 
@@ -58,5 +55,4 @@ You can force the Pod deletion with the following options:
 k delete po debug --force --grace-period=0
 ```
 
-</details>
 

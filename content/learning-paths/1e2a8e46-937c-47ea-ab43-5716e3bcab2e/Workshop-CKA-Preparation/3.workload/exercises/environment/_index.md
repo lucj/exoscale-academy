@@ -14,10 +14,7 @@ title: Environment
 
 [https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a pod with a single container based on *alpine:3.15*. This container must run the command `sleep 3600` and have the environment variable *token=12345*
 
@@ -37,5 +34,4 @@ k exec alpine -- env
 k delete po/alpine
 ```
 
-</details>
 

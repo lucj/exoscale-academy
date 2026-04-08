@@ -18,10 +18,7 @@ title: Labels
 
 [https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. List the labels of all the nodes
 
@@ -86,5 +83,4 @@ k delete po/nginx
 k label node worker1 disktype-
 ```
 
-</details>
 

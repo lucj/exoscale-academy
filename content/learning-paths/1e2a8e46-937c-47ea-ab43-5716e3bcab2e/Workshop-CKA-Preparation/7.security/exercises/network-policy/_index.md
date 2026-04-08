@@ -18,10 +18,7 @@ title: NetworkPolicy
 
 [https://kubernetes.io/docs/concepts/services-networking/network-policies/](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a *dev* namespace
 
@@ -130,5 +127,5 @@ This will delete the Pod and the NetworkPolicies as well:
 ```bash
 kubectl delete ns/dev
 ```
-</details>
+
 

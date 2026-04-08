@@ -20,10 +20,7 @@ title: Affinity
 
 [https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#node-affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#node-affinity)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create the specification of a Pod named *www* with a single container based on *nginx:1.20*
 
@@ -146,5 +143,4 @@ www    1/1     Running   0          4m1s   10.32.0.2   worker1   <none>         
 k delete po www
 ```
 
-</details>
 

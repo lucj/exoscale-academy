@@ -32,10 +32,7 @@ Hint: it's located in */var/lib/kubelet/pods/POD_ID/volumes/kubernetes.io~empty-
 
 [https://kubernetes.io/docs/concepts/storage/volumes/#emptydir](https://kubernetes.io/docs/concepts/storage/volumes/#emptydir)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a Pod with a single container based on *mongo:5.0* and ensure it persists its data in an ephemeral volume
 
@@ -103,5 +100,5 @@ sudo ls /var/lib/kubelet/pods/POD_ID/volumes/kubernetes.io~empty-dir/data
 ```
 k delete po mongo
 ```
-</details>
+
 

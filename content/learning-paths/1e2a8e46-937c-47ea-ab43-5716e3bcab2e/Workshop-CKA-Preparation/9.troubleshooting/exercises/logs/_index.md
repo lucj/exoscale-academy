@@ -14,10 +14,7 @@ title: Logs
 
 [https://kubernetes.io/docs/concepts/cluster-administration/logging/](https://kubernetes.io/docs/concepts/cluster-administration/logging/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Get the kubelet logs on one of your cluster's worker nodes
 
@@ -59,5 +56,3 @@ kube-system_kube-scheduler-controlplane_c529a0e58147976e9813a2df72cd8520
 ```
 
 Note: /var/log/pods also contains the log files of any other pods running on the node
-
-</details>

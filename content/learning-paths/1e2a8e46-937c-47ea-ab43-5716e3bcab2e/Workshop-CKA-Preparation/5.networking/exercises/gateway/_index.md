@@ -67,10 +67,7 @@ ghost application listens on port 2368
 
 [https://gateway-api.sigs.k8s.io/](https://gateway-api.sigs.k8s.io/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Install the Gateway API CRDs and Envoy Gateway controller
 
@@ -234,5 +231,3 @@ kubectl delete service ghost
 rm ghost-tls.key ghost-tls.crt
 helm uninstall eg -n envoy-gateway-system
 ```
-
-</details>

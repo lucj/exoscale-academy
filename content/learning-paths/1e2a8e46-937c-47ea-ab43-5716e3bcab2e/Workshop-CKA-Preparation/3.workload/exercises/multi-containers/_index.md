@@ -16,10 +16,7 @@ title: multi-containers Pod
 
 [https://kubernetes.io/docs/concepts/workloads/pods/](https://kubernetes.io/docs/concepts/workloads/pods/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create the specification of a Pod with one container based on *nginx:1.20-alpine*
 
@@ -103,5 +100,4 @@ AH00015: Unable to open logs
 k delete po/www
 ```
 
-</details>
 

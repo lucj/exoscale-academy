@@ -25,10 +25,7 @@ This exercise simulates an API server failure and demonstrates how to troublesho
 
 - [https://kubernetes.io/docs/concepts/cluster-administration/logging/](https://kubernetes.io/docs/concepts/cluster-administration/logging/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Check the current status of all control plane components
 
@@ -122,4 +119,3 @@ sudo journalctl -u kubelet -f
 sudo cat /var/log/containers/kube-apiserver...
 ```
 
-</details>

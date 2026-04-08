@@ -33,10 +33,7 @@ You can use the nodeAffinity property in the PersistentVolume specification
 - [https://kubernetes.io/docs/concepts/storage/persistent-volumes/](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
 - [https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create the folder */tmp/data* on worker1
 
@@ -202,5 +199,4 @@ From a shell on worker1
 rm -fr /tmp/data
 ```
 
-</details>
 

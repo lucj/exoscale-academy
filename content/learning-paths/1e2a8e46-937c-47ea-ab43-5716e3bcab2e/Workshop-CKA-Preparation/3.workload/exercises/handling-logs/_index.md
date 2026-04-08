@@ -22,10 +22,7 @@ You can use the *alpine* image for this sidecar container.
 
 [https://kubernetes.io/docs/concepts/storage/volumes/#emptydir](https://kubernetes.io/docs/concepts/storage/volumes/#emptydir)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create the specification of a Pod named *www* with a single container based on nginx
 
@@ -129,5 +126,5 @@ This container correctly streams the nginx container's log
 ```
 k delete -f pod.yaml
 ```
-</details>
+
 

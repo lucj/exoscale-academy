@@ -49,10 +49,7 @@ ghost application listens on port 2368
 
 [https://kubernetes.io/docs/concepts/services-networking/ingress/](https://kubernetes.io/docs/concepts/services-networking/ingress/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Install the NGinx ingress controller with Helm using NodePort
 
@@ -128,5 +125,4 @@ kubectl delete service ghost
 helm uninstall ingress
 ```
 
-</details>
 

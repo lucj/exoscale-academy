@@ -20,10 +20,7 @@ title: events
 
 [https://kubernetes.io/docs/reference/kubectl/generated/kubectl_events/](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_events/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. List all the events in the cluster
 
@@ -61,5 +58,4 @@ k get events --field-selector reason=Created
 k get events --field-selector type!=Normal
 ```
 
-</details>
 

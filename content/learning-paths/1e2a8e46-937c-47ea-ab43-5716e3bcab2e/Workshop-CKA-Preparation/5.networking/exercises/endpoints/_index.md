@@ -22,10 +22,7 @@ ghost application listens on port 2368
 
 [https://kubernetes.io/docs/concepts/services-networking/service/](https://kubernetes.io/docs/concepts/services-networking/service/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a deployment with 3 pods based on the ghost:4 image
 
@@ -89,5 +86,5 @@ Events:  <none>
 ```bash
 k delete deploy/ghost svc/ghost
 ```
-</details>
+
 

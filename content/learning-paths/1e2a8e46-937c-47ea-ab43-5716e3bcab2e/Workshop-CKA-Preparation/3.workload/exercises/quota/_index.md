@@ -20,10 +20,7 @@ title: Quota
 
 [https://kubernetes.io/docs/concepts/policy/resource-quotas/](https://kubernetes.io/docs/concepts/policy/resource-quotas/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a Namespace named *dev*
 
@@ -78,5 +75,4 @@ k -n dev delete deploy/ghost quota/limit-pod-number
 k delete ns dev
 ```
 
-</details>
 

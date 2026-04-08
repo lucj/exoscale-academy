@@ -16,10 +16,7 @@ title: Eviction
 
 [https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Run a Deployment with 6 replicas of Pod based on nginx:1.20
 
@@ -75,5 +72,5 @@ Remove the NoExecute taint from worker2
 ```
 k taint node worker2 app-
 ```
-</details>
+
 

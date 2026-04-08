@@ -1,5 +1,5 @@
 ---
-title: command
+title: Command
 ---
 
 ## Exercise
@@ -15,10 +15,7 @@ title: command
 - [https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/](https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/)
 - [https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#run](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#run)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a Pod named *debug* with one container based on *alpine:3.15* and make sure it executes the command `sleep 10000`
 
@@ -37,6 +34,4 @@ k exec debug -- ps aux
 ```
 k delete po debug
 ```
-
-</details>
 

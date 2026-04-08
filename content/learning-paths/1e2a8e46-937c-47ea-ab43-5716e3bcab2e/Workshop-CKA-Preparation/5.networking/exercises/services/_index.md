@@ -24,10 +24,7 @@ The podinfo container listens on port 9898
 
 [https://kubernetes.io/docs/concepts/services-networking/service/](https://kubernetes.io/docs/concepts/services-networking/service/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a pod with a single container based on the image stefanprodan/podinfo
 
@@ -144,5 +141,4 @@ curl 10.62.50.173:31029
 k delete svc/podinfo po/podinfo
 ```
 
-</details>
 

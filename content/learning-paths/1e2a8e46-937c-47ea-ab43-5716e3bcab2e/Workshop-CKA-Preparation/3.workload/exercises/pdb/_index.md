@@ -24,10 +24,7 @@ Note: you can ignore the daemonset pods with the flag *--ignore-daemonsets*
 
 [https://kubernetes.io/docs/tasks/run-application/configure-pdb/](https://kubernetes.io/docs/tasks/run-application/configure-pdb/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a deployment named *ghost* with 4 replicas based on the ghost:4 image. Make sure the deployment has the *app: ghost* label
 
@@ -109,5 +106,4 @@ worker2   Ready    <none>          5h53m   v1.25.7
 k delete deploy/ghost pdb/ghost-pdb
 ```
 
-</details>
 

@@ -31,10 +31,7 @@ kubectl run crash-pod --image=busybox --command -- /bin/sh -c "exit 1"
 - [https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/](https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/)
 - [https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 ### ImagePullBackOff Issues
 
@@ -97,5 +94,3 @@ kubectl describe pod crash-pod
 kubectl delete pod crash-pod
 kubectl run crash-pod --image=busybox --command -- /bin/sh -c "while true; do sleep 30; done"
 ```
-
-</details>
