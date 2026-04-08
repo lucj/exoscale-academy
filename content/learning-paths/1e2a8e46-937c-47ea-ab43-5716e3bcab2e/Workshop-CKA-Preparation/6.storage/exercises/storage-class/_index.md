@@ -26,10 +26,7 @@ In this exercise, you'll create the simplest possible StorageClass, based on hos
 
 [https://kubernetes.io/docs/concepts/storage/persistent-volumes/](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Check the existing StorageClasses
 
@@ -254,5 +251,3 @@ hostPath storage limitations:
 - Node failure means data loss
 - Not suitable for production workloads
 {{< /hextra/callout >}}
-
-</details>

@@ -20,10 +20,7 @@ title: Taint
 
 [https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Check the taints of the cluster's nodes. What does that mean ?
 
@@ -118,5 +115,4 @@ nginx-7b788fb97d-tj7f9   1/1     Running   0          57s   10.38.0.7   worker2 
 k delete deploy/nginx
 ```
 
-</details>
 

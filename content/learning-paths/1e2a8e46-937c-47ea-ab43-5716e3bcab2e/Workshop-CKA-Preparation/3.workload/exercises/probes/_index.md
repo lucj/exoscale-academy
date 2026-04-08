@@ -16,10 +16,7 @@ title: Probes
 
 [https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create the specification of a Pod based on the *stefanprodan/podinfo* image
 
@@ -81,5 +78,4 @@ spec:
 k delete po podinfo
 ```
 
-</details>
 

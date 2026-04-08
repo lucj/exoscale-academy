@@ -20,10 +20,7 @@ title: Deployment Strategy
 
 [https://kubernetes.io/docs/concepts/workloads/controllers/deployment/](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create the specification of a deployment with 5 replicas of pods based on the nginx:1.16 image
 
@@ -177,5 +174,4 @@ You should notice all the pods are terminated at the same time and new ones are 
 k delete deploy nginx
 ```
 
-</details>
 

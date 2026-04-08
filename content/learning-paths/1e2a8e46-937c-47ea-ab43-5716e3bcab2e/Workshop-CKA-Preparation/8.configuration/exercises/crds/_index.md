@@ -38,10 +38,7 @@ title: CRDs
 
 [https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a CustomResourceDefinition named `applications.company.com`
 
@@ -160,5 +157,3 @@ kubectl get application webapp -o yaml
 kubectl delete application webapp
 kubectl delete crd applications.company.com
 ```
-
-</details>

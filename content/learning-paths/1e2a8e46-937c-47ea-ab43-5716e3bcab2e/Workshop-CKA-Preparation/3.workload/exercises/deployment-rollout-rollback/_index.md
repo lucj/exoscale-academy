@@ -22,10 +22,7 @@ title: Rollout and Rollback
 
 [https://kubernetes.io/docs/concepts/workloads/controllers/deployment/](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a deployment named *www* with 5 replicas of *nginx:1.16*
 
@@ -121,5 +118,4 @@ nginx:1.16
 ```
 k delete deploy/www
 ```
-</details>
 

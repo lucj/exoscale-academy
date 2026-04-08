@@ -28,10 +28,7 @@ k run ab -ti --rm --restart='Never' --image=lucj/ab -- -n 100000 -c 50 http://ww
 
 [https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Install metrics server with the *--kubelet-insecure-tls* flag and wait for it to work fine.
 
@@ -127,6 +124,4 @@ k get hpa -w
 ```
 k delete deploy/www svc/www hpa/www
 ```
-
-</details>
 

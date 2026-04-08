@@ -41,10 +41,7 @@ crictl --version
 
 [https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md](https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Install crictl on a worker node
 
@@ -304,5 +301,3 @@ sudo crictl images
 sudo crictl pull <image-name>
 sudo crictl rmi <image-id>
 ```
-
-</details>

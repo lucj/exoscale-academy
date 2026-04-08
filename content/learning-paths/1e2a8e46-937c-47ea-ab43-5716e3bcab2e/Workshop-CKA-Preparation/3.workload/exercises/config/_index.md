@@ -1,5 +1,5 @@
 ---
-title: configuration
+title: Configuration
 ---
 
 ## Exercise
@@ -22,10 +22,7 @@ title: configuration
 
 [https://kubernetes.io/docs/concepts/configuration/configmap/](https://kubernetes.io/docs/concepts/configuration/configmap/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a ConfigMap named mycfg containing the key pairs *token=12345* and *level=debug*
 
@@ -137,6 +134,4 @@ k exec demo2 -- cat /etc/app_cfg/token
 ```
 k delete cm/mycfg pod/demo1 pod/demo2
 ```
-
-</details>
 

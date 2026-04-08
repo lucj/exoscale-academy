@@ -24,10 +24,7 @@ Note: path of the log files to stream is /var/log/pods/\*/\*/\*.log
 - [https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/)
 - [https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create the specification of a DaemonSet named *log*. Each Pod must:
 - be based on the alpine:3.15 image
@@ -258,6 +255,4 @@ k logs ds/log
 ```
 k delete ds log
 ```
-
-</details>
 

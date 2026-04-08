@@ -19,10 +19,7 @@ title: Job & Cronjobs
 - [https://kubernetes.io/docs/concepts/workloads/controllers/job/](https://kubernetes.io/docs/concepts/workloads/controllers/job/)
 - [https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a Job running 3 pods in sequence. Each Pod contains a single container based on the *alpine:3.15* image, prints the current date in its standard output and then waits for 3 seconds
 
@@ -79,5 +76,4 @@ k delete job my-job
 k delete cj my-cronjob
 ```
 
-</details>
 

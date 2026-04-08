@@ -39,10 +39,7 @@ The repository's path is https://charts.bitnami.com/bitnami
 
 [https://helm.sh/docs/](https://helm.sh/docs/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Search for the `nginx` Chart maintained by Bitnami in the ArtifactHub, and find the repository URL
 
@@ -128,5 +125,3 @@ helm uninstall my-nginx --namespace web-apps
 ```bash
 kubectl delete namespace web-apps
 ```
-
-</details>

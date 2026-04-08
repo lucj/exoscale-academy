@@ -43,10 +43,7 @@ title: Kustomize
 
 [https://kubectl.docs.kubernetes.io/guides/introduction/kustomize/](https://kubectl.docs.kubernetes.io/guides/introduction/kustomize/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a directory structure for the Kustomize project
 
@@ -290,5 +287,3 @@ kubectl delete -k overlays/production
 {{< hextra/callout type="info" >}}
 This kustomization.yaml is a bit tricky; you'll not have to create one from scratch in the CKA, but you need to understand Kustomize's main concepts
 {{< /hextra/callout >}}
-
-</details>

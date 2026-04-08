@@ -12,10 +12,7 @@ title: kubelet
 
 4. Restart the kubelet process on worker1 and make sure everything is fine
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Verify that all your worker nodes are healthy
 
@@ -75,5 +72,4 @@ sudo systemctl status kubelet
 
 Listing the node or describing *worker1* you should see everything is back to normal
 
-</details>
 

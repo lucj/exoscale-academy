@@ -26,10 +26,7 @@ Note: if your Pod stays in *Pending* you can use a lower value for the memory re
 
 [https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/#priorityclass](https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/#priorityclass)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Add the label *disktype=ssd* on the worker1 Node
 
@@ -164,5 +161,4 @@ kubectl delete po/apache priorityClass/high
 kubectl label node worker1 disktype-
 ```
 
-</details>
 

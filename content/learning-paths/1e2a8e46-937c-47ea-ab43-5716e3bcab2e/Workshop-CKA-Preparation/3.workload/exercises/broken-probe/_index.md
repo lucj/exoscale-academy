@@ -18,10 +18,7 @@ title: Broken probe
 
 [https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
 
-<br>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create the specification of a Deployment with a single replica based on the *nginx:1.20-alpine* image
 
@@ -120,6 +117,4 @@ spec:
 ```
 k delete deploy/nginx
 ```
-
-</details>
 

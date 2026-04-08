@@ -22,10 +22,7 @@ title: ServiceAccount
 - [https://kubernetes.io/docs/concepts/security/service-accounts/](https://kubernetes.io/docs/concepts/security/service-accounts/)
 - [https://kubernetes.io/docs/reference/kubectl/generated/kubectl_auth/kubectl_auth_can-i/](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_auth/kubectl_auth_can-i/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create a Namespace named *test*
 
@@ -67,5 +64,4 @@ k delete clusterrole/pod-reader
 k delete ns test
 ```
 
-</details>
 

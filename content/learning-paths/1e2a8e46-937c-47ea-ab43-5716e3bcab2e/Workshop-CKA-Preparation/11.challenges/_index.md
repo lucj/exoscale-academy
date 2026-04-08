@@ -1,6 +1,7 @@
 ---
 title: Challenges
 weight: 11
+no_list: true
 ---
 
 # Challenges

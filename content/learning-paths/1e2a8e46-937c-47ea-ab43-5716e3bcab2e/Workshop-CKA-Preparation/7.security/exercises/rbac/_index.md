@@ -45,10 +45,7 @@ Dave moves to a different team. Remove his RoleBindings.
 
 [https://kubernetes.io/docs/reference/access-authn-authz/rbac/](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 
-<br/>
-
-<details>
-  <summary markdown="span">Solution</summary>
+## Solution
 
 1. Create the Namespaces and RBAC resources
 
@@ -383,5 +380,3 @@ Then, we verify Dave's access is revoked:
 kubectl auth can-i get pods --namespace=dev --as=dave # Should not be authorized
 kubectl auth can-i get deployment --namespace=staging --as=dave # Should not be authorized
 ```
-
-</details>
