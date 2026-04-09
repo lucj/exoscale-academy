@@ -15,4 +15,8 @@ no_list: true
                 title="Exercise" 
                 subtitle="Use Deployment in the VotingApp" 
     >}}
+    {{< hextra/card    link="./solution" 
+                title="Solution" 
+                subtitle="Use Deployment in the VotingApp" 
+    >}}
 {{< /hextra/cards >}}

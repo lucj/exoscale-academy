@@ -15,4 +15,8 @@ no_list: true
                 title="Exercise" 
                 subtitle="Persist the VotingApp's databases" 
     >}}
+    {{< hextra/card    link="./solution" 
+                title="Solution" 
+                subtitle="Persist the VotingApp's databases" 
+    >}}
 {{< /hextra/cards >}}

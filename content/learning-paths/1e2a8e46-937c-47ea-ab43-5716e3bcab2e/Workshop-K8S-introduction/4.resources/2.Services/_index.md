@@ -15,4 +15,8 @@ no_list: true
                 title="Exercise" 
                 subtitle="Add Services to the VotingApp" 
     >}}
+    {{< hextra/card    link="./solution" 
+                title="Solution" 
+                subtitle="Add Services to the VotingApp" 
+    >}}
 {{< /hextra/cards >}}

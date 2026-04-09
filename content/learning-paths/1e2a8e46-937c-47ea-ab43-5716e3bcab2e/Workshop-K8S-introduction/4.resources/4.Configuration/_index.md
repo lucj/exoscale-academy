@@ -15,4 +15,8 @@ no_list: true
                 title="Exercise" 
                 subtitle="Use a Secret to secure the database connection" 
     >}}
+    {{< hextra/card    link="./solution" 
+                title="Solution" 
+                subtitle="Use a Secret to secure the database connection" 
+    >}}
 {{< /hextra/cards >}}

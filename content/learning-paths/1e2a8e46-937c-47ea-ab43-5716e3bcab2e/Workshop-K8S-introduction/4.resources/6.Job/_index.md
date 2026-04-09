@@ -15,4 +15,8 @@ no_list: true
                 title="Exercise" 
                 subtitle="Use a CronJob to create dummy votes" 
     >}}
+    {{< hextra/card    link="./solution" 
+                title="Solution" 
+                subtitle="Use a CronJob to create dummy votes" 
+    >}}
 {{< /hextra/cards >}}
