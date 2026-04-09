@@ -15,4 +15,8 @@ no_list: true
                 title="Exercise" 
                 subtitle="Run the VotingApp in Pods" 
     >}}
+    {{< hextra/card    link="./solution" 
+                title="Solution" 
+                subtitle="Run the VotingApp in Pods" 
+    >}}
 {{< /hextra/cards >}}

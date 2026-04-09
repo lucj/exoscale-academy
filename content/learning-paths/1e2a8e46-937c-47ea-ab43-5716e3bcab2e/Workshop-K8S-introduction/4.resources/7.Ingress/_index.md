@@ -15,4 +15,8 @@ no_list: true
                 title="Exercise" 
                 subtitle="Expose the VotingApp with an Ingress resource" 
     >}}
+    {{< hextra/card    link="./solution" 
+                title="Solution" 
+                subtitle="Expose the VotingApp with an Ingress resource" 
+    >}}
 {{< /hextra/cards >}}

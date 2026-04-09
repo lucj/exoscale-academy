@@ -5,8 +5,6 @@ weight: 2
 
 In this exercise, you'll expose the VotingApp with an Ingress resource.
 
-## Instructions
-
 1. Traefik Ingress Controller
 
 Since the cluster used in this section is based on k3s, it comes with Traefik Ingress Controller by default. This can be verified using the following command.
@@ -63,55 +61,3 @@ If you do not have the necessary permissions to modify your */etc/hosts* file, y
 3. Deploy the application and verify that the vote interface is available at *http://vote.votingapp.com* and the result interface is available at *http://result.votingapp.com* (or at *http://vote.IP_OF_YOUR_VM.nip.io* / *http://result.IP_OF_YOUR_VM.nip.io* if you are using the nip.io approach).
 
 4. Delete the application.
-
-## Solution
-
-1. The specification for the Ingress resource is as follows:
-
-```yaml {filename="ingress.yaml"}
-apiVersion: networking.k8s.io/v1
-kind: Ingress
-metadata:
-  name: vote
-spec:
-  ingressClassName: traefik
-  rules:
-  - host: vote.votingapp.com
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: vote-ui
-            port:
-              number: 80
-  - host: result.votingapp.com
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: result-ui
-            port:
-              number: 80
-```
-
-2. Deploy the application with the following command from the *manifests* directory:
-
-``` bash
-kubectl apply -f .
-```
-
-You can then access the different interfaces using real domain names instead of a port number.
-
-![Vote](./images/voteui.png)
-
-![Result](./images/resultui.png)
-
-3. Delete the application with the following command from the *manifests* directory:
-
-``` bash
-kubectl delete -f .
-```
