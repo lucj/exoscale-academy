@@ -6,7 +6,7 @@ ignoreLogs: ['warning-goldmark-raw-html']
 params:
   buildCondition: examples
   academy:
-    consoleURL: https://exoscale.layer5.io/academy/instructors-console
+    domain: exoscale.layer5.io
 
 markup:
   goldmark:
