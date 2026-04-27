@@ -1,6 +1,11 @@
 ---
-title: 'Workshop Exoscale Introduction'
+type: "learning-path"
+title: "Workshop Exoscale Intro"
+description: "This hands-on workshop will help you deploying a microservice application in Kubernetes using Exoscale's platform and open-source tools"
 weight: 12
+id: "0e8df4e6-ed92-4687-a84f-c3dc61af912c"
+tags: ["cloud", "exoscale"]
+level: "beginner"
 no_list: true
 ---
 

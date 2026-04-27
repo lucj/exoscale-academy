@@ -1,6 +1,10 @@
 ---
-title: Workshop Kubernetes
+type: "learning-path"
+title: "Workshop Kubernetes"
+description: "This hands-on workshop will help you learning the basics of Kubernetes by deploying a microservice application"
 weight: 10
+id: "8cd4aa89-87f5-472d-a7c2-69e5b9819915"
+level: "beginner"
 no_list: true
 ---
 

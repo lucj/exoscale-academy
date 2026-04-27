@@ -1,6 +1,11 @@
 ---
-title: 'Workshop CKA preparation'
+type: "learning-path"
+title: "Workshop CKA Preparation"
+description: "This hands-on workshop will help you preparing for the Certified Kubernetes Administrator (CKA) certification"
 weight: 11
+id: "5a817fbd-7754-4bf2-8285-be3074c854ea"
+tags: ["kubernetes", "cka"]
+level: "beginner"
 no_list: true
 ---
 
