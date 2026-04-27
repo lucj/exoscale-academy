@@ -1,5 +1,5 @@
 ---
-title: Solution
+title: Solution - Metrics
 ---
 
 1. Install the metrics server ([https://github.com/kubernetes-sigs/metrics-server](https://github.com/kubernetes-sigs/metrics-server))

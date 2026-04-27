@@ -1,5 +1,5 @@
 ---
-title: Solution
+title: Solution - Audit
 ---
 
 1. On the *controlplane* node, create the file */etc/kubernetes/audit-policy.yaml* with the following content:

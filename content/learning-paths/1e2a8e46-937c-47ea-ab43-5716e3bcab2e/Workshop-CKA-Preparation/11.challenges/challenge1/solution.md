@@ -1,5 +1,5 @@
 ---
-title: Solution
+title: Solution - Ch1
 ---
 
 1. Test

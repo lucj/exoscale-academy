@@ -1,5 +1,5 @@
 ---
-title: Solution
+title: Solution - Ch7
 ---
 
 Observe the behavior of the pod you will notice the pod is automatically restarted after a few tens of seconds:

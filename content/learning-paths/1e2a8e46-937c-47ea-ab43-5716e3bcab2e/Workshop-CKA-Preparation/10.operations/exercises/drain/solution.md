@@ -1,5 +1,5 @@
 ---
-title: Solution
+title: Solution - Drain
 ---
 
 1. Create a Deployment with 6 replicas of Pods based on the nginx:1.20 image

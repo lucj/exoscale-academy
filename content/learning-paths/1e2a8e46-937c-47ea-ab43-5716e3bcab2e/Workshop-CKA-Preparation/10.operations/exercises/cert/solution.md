@@ -1,5 +1,5 @@
 ---
-title: Solution
+title: Solution - Certs
 ---
 
 1. Check the current certificate expiration dates

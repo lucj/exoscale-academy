@@ -1,5 +1,5 @@
 ---
-title: Solution
+title: Solution - Nodes
 ---
 
 1. Create a Deployment named *web-app* with 6 replicas using nginx:1.26 image
