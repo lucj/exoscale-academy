@@ -19,7 +19,7 @@ As kubectl targets the API Server, first make sure this one is running fine.
 On the controlplane Node, check the APIServer's logs in */var/log/syslog*. You should see that the API Server cannot start correctly:
 
 ```bash
-/# sudo cat /var/logs/syslog | grep kube-apiserver
+/# sudo cat /var/log/syslog | grep kube-apiserver
 
 2025-08-06T08:38:22.980225+00:00 controlplane kubelet[28526]: E0806 10:38:22.980181   28526 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"kube-apiserver\" with CrashLoopBackOff: \"back-off 2m40s restarting failed container=kube-apiserver pod=kube-apiserver-controlplane_kube-system(bc6d1be5c0eea4c705d74622b0e5ab0b)\"" pod="kube-system/kube-apiserver-controlplane" podUID="bc6d1be5c0eea4c705d74622b0e5ab0b"
 ```

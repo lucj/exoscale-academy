@@ -4,7 +4,7 @@ weight: 10
 no_list: true
 ---
 
-Welcome to this hands-on workshop where you'll learn the basics of Kubernetes by deploying a microservice application. It is organized into the following sections, each building upon the previous one. You can access a section directly by clicking on the corresponding card, but if you want to get the most out of this workshop it's recommended you follow the section in order, starting with the presentation of the [VotingApp](./votingapp).
+Welcome to this hands-on workshop where you'll learn the basics of Kubernetes by deploying a microservice application. It is organized into the following sections, each building upon the previous one. You can access a section directly by clicking on the corresponding card, but if you want to get the most out of this workshop it's recommended you follow the section in order, starting with the presentation of the [VotingApp](./1.votingapp).
 
 
 {{< hextra/cards >}}
@@ -25,7 +25,7 @@ Welcome to this hands-on workshop where you'll learn the basics of Kubernetes by
     >}}
     {{< hextra/card    link="./4.resources" 
                 title="Main resources" 
-                subtitle="Learn and practice main resources" 
+                subtitle="Concepts, exercises, and solutions for main resources" 
                 icon="code"
     >}}
     {{< hextra/card    link="./5.troubleshooting" 
