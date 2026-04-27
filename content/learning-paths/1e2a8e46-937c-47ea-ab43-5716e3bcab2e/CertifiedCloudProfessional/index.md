@@ -1,4 +1,5 @@
 ---
+type: "page"
 title: Certified Cloud Professional
 weight: 7
 ---
@@ -8,7 +9,6 @@ weight: 7
 ### Definition
 
 Cloud computing lets you use servers, storage, and applications on the Internet instead of owning or managing your own hardware. It’s an easy, flexible, and cost-effective way to get the technology you need without the hassle.
-
 
 ![](cloud-computing.png "")
 

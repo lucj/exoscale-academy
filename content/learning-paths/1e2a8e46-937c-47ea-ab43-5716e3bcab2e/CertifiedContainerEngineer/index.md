@@ -1,4 +1,5 @@
 ---
+type: "page"
 title: Certified Container Engineer
 weight: 8
 ---

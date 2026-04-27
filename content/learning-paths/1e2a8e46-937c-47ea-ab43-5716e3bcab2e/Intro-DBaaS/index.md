@@ -1,4 +1,5 @@
 ---
+type: "page"
 title: Introduction to DBaaS
 weight: 2
 ---

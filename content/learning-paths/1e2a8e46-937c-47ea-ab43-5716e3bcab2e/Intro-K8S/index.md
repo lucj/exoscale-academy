@@ -1,4 +1,5 @@
 ---
+type: "page"
 title: Introduction to Kubernetes
 weight: 3
 ---

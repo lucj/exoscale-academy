@@ -1,4 +1,5 @@
 ---
+type: "page"
 title: Certified Solution Architect
 weight: 9
 ---
