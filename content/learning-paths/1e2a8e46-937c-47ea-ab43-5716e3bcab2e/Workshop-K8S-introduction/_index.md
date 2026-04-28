@@ -48,3 +48,5 @@ Welcome to this hands-on workshop where you'll learn the basics of Kubernetes by
                 icon="arrow-circle-right"
     >}}
 {{< /hextra/cards >}}
+
+{{< slack-invite link="https://join.slack.com/t/exoscale-org/shared_invite/zt-34s6jetvl-tNP_TpfweeAKNnPb593j9A">}}
