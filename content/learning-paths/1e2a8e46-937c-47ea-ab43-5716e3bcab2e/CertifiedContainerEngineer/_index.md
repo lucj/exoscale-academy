@@ -7,4 +7,4 @@ id: "ad28e9ed-b1e5-4d90-aa62-43bf32c2e4f5"
 tags: ["cloud", "kubernetes", "container"]
 level: "beginner"
 ---
-Building up basic K8s knowledge, and then we dive deeper into Kubernetes concepts, related storage technologies, applications and troubleshooting.
+
