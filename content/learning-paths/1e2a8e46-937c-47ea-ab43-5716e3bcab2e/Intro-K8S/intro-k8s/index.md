@@ -154,6 +154,7 @@ __Kubernetes is an increasingly popular way to do that__.
 
 ![](dan_kohn.png "Dan Kohn, former executive director of the CNCF")
 
+Dan Kohn, former executive director of the CNCF
 
 
 ## Kubernetes ?
