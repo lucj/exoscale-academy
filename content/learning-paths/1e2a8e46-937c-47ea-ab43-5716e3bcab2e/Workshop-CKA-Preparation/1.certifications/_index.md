@@ -145,5 +145,5 @@ The [Kubectl quick reference guide](https://kubernetes.io/docs/reference/kubectl
 Registering for the CKA gives you access to two sessions of the official Exam simulator. I hightly recommend using these sessions once you're almost ready.
 
 {{< hextra/callout type="warning" >}}
-The CKA is Very practical, so make sure you practice a lot!
+The CKA is very practical, so make sure you practice a lot!
 {{< /hextra/callout >}}
